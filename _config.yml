@@ -68,3 +68,5 @@ prose:
  #         element: "text"
  #         label: "Permalink"
  #         value: ""
+ #
+gems: [jekyll-paginate]
