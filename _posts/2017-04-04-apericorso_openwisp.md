@@ -11,6 +11,6 @@ L'ingresso è libero, ma è richiesta la tessera ARCI.
 
 E' possibile registrarsi a questo  [indirizzo](https://www.eventbrite.com/e/apericorso-openwisp-tickets-33408960099)
 
-![Manifesto](/assets/images/apericorso_openwisp.png"Volantino aperitivo"){:class="img-post"}
+![Manifesto](/assets/images/apericorso_openwisp.png "Volantino aperitivo"){:class="img-post"}
 
 Vi aspettiamo!
