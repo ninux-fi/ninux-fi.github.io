@@ -2,6 +2,8 @@
 layout: post
 title: 04/04/2017 - Apericorso OpenWISP
 author: gabriel
+tags:
+  - ninux-firenze
 ---
 Questo Sabato, 8 Aprile siete tutti invitati a ExFila per un Apericorso alcolico. Federico Capoano (aka Nemesis) ci parlerà di come funziona [OpenWISP](http://openwisp.org), il controller open source per reti e access point wifi scritto in django.
 
