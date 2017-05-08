@@ -14,6 +14,11 @@ Potete venire, ascoltare, domandare ed imparare cose nuove oppure partecipare at
 Tutti i corsi si svolgono all’exfila, in via Mons. Leto Casini 11, e sono gratuiti.
 Essendo una sede ARCI dovrete fare la tessera ARCI 2017, e se non la avete, vi offriamo anche una birra!
 
+---
+**Update**: causa malattia, il corso sulle reti Wi-Fi, dell 8/5 e' rimandato a data da destinarsi!
+
+---
+
 ## [Scarica il volantino](/assets/images/corsi/Corsi Ninux Firenze 2017.pdf)
 
 - Introduzione a DevOps con Ansible [(Iscrizione)](/corso-ansible)
