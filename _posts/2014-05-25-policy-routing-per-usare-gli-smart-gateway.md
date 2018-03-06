@@ -13,7 +13,7 @@ Questa è la configurazione standard per Firenze da aggiungere al file <em>/etc/
 #Rotte per raggiungere le destinazioni locali
 #se ci fosse uno scriptino che le parsasse da ip r sarebbe meglio
 #Aggiungere a mano tutte le route presenti nella tabella main esclusa la default
-ip route add 10.150.x.0/24 dev <INTERFACCIA_LAN e MGMT> table 110
+ip route add 10.150.x.0/24 dev INTERFACCIA_LAN e MGMT table 110
 ip rule add from all lookup 110 pref 3
 
 
