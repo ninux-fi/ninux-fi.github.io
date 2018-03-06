@@ -8,49 +8,54 @@ Per utilizzare correttamente gli smart gateway e consentire alcune configurazion
 
 Questa è la configurazione standard per Firenze da aggiungere al file <em>/etc/rc.local</em> prima di <em>exit 0</em>:
 
-<code>
-    #Rotte per raggiungere le destinazioni locali
-    #se ci fosse uno scriptino che le parsasse da ip r sarebbe meglio
-    #Aggiungere a mano tutte le route presenti nella tabella main esclusa la default
-    ip route add 10.150.x.0/24 dev <INTERFACCIA_LAN e MGMT> table 110
-    ip rule add from all lookup 110 pref 3
+<pre>
+  <code>
+#Rotte per raggiungere le destinazioni locali
+#se ci fosse uno scriptino che le parsasse da ip r sarebbe meglio
+#Aggiungere a mano tutte le route presenti nella tabella main esclusa la default
+ip route add 10.150.x.0/24 dev <INTERFACCIA_LAN e MGMT> table 110
+ip rule add from all lookup 110 pref 3
 
 
-    #Rotte per Ninux table 111 va aggiunta la regola RtTable nel file di conf di olsr (*)
-    ip rule add to 10.0.0.0/8 table 111 pref 4
-    ip rule add to 172.16.0.0/12 table 111 pref 4
-    ip rule add to 192.168.0.0/16 table 111 pref 4
-    ip rule add to 150.217.0.0/16 table 111 pref 4
-    ip rule add to 176.62.53.32/28 table 111 pref 4
+#Rotte per Ninux table 111 va aggiunta la regola RtTable nel file di conf di olsr (*)
+ip rule add to 10.0.0.0/8 table 111 pref 4
+ip rule add to 172.16.0.0/12 table 111 pref 4
+ip rule add to 192.168.0.0/16 table 111 pref 4
+ip rule add to 150.217.0.0/16 table 111 pref 4
+ip rule add to 176.62.53.32/28 table 111 pref 4
 
 
-    #Blackhole vari table 114
-    ip route add blackhole 10.0.0.0/8 table 114
-    ip route add blackhole 172.16.0.0/12 table 114
-    ip route add blackhole 192.168.0.0/16 table 114
-    ip rule add from all table 114 pref 5
+#Blackhole vari table 114
+ip route add blackhole 10.0.0.0/8 table 114
+ip route add blackhole 172.16.0.0/12 table 114
+ip route add blackhole 192.168.0.0/16 table 114
+ip rule add from all table 114 pref 5
 
-    #Main
-    ip rule add from all table main pref 6
+#Main
+ip rule add from all table main pref 6
 
-    #Table 224 RTTableTunnel (Smart gateway)
-    ip rule add from all table 224 pref 7
+#Table 224 RTTableTunnel (Smart gateway)
+ip rule add from all table 224 pref 7
 
-    #Table 112 RTTableDefault
-    ip rule add from all lookup 112 pref 8
-</code>
+#Table 112 RTTableDefault
+ip rule add from all lookup 112 pref 8
+  </code>
+</pre>
 
 Nel file di configurazione di olsr vanno aggiunte le direttive:
 
+<pre>
 <code>
     RtTable 111
     RtTableDefault 112
     RtTableTunnel 224
 </code>
+</pre>
 
 
 
 Per i router di frontiera BGP-OLSRD è necessario usare questo script per il policy routing
+<pre>
 <code>
 tincd -n ninux-fi
 tincd -n bgp-isole
@@ -85,5 +90,6 @@ ip link set pubblico up
 ip route add default via 10.150.254.4 table 99
 exit 0
 </code>
+</pre>
 
-Articolo originariamente pubblicato su http://nazza.servebeer.com/viewtopic.php?f=7&t=19&sid=aafe40bd557b4e17ab8f65f45fc90f58
+Articolo originariamente pubblicato su http://nazza.servebeer.com/viewtopic.php?f=7&t=19&sid=aafe40bd557b4e17ab8f65f45fc90f
