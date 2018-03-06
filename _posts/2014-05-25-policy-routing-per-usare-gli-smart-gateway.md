@@ -92,4 +92,4 @@ exit 0
 </code>
 </pre>
 
-Articolo originariamente pubblicato su http://nazza.servebeer.com/viewtopic.php?f=7&t=19&sid=aafe40bd557b4e17ab8f65f45fc90f
+Articolo originariamente pubblicato su [http://nazza.servebeer.com/viewtopic.php?f=7&t=19&sid=aafe40bd557b4e17ab8f65f45fc90f](http://nazza.servebeer.com/viewtopic.php?f=7&t=19&sid=aafe40bd557b4e17ab8f65f45fc90f)
