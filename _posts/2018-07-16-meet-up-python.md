@@ -22,7 +22,7 @@ Il modo migliore per cominciare un meetup come si deve!
 
 La serata si è poi evoluta con l'inizio dei talk, primo tra tutti quello di **Laura** sul progetto **"Django Girls"**, una interessante rivendicazione femminile all'interno di un mondo dominato dalla presenza di una stragrande maggioranza maschile. Le Django Girls organizzano periodicamente eventi per insegnare l'arte della programmazione a tutte quelle ragazze che hanno un interesse ad entrare in questo mondo, ma che sono un po' fermate dai preconcetti e dal timore di non essere in grado di farcela da sole.
 Gli eventi organizzati sono dei veri e propri workshop dedicati interamente alle donne... Eh no, cari maschietti, voi non siete ammessi tra i partecipanti! Tuttavia, se ci tenete, potete partecipare come facilitatori!
-Il prossimo evento italiano è a Roma a Settembre 2018, qui potete trovare l'elenco completo degli appuntamenti in [programma](https://djangogirls.org/events/ "Django Girls events")
+Il prossimo evento italiano è a Roma a Settembre 2018, qui potete trovare l'elenco completo degli appuntamenti in [programma](https://djangogirls.org/events/ "Django Girls events").
 
 A seguire ha parlato **Carlo Asciani**, raccontandoci con una grande e coinvolgente simpatia del suo progetto sviluppato durante le domeniche sere degli ultimi suoi mesi di attività pythoniana. Ache qui si è parlato di Django, usato per creare un applicativo che è in grado di estrapolare, da un file SASS opportunamente formattato, una pagina di riepilogo dello stile utilizzato in grossi progetti web. Purtroppo per i lettori più interessati, l'autore di questo articolo non è un grande esperto di Python, pertanto mi scuso e invito a contattare carlo personalmente per utleriori dettagli.
 
