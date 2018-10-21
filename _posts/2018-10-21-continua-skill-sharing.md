@@ -7,6 +7,8 @@ tags:
   - ninux
 ---
 
+![volantino tecnolokia](/assets/images/2018/tecnolokia-2018.jpeg)
+
 Dopo il grande successo della scorsa edizione ecco la nuova edizione di **Tecnolokia** con la partecipazione di Ninux Firenze,
 anche per questa edizione gli incontri sono a ingresso libero.
 
